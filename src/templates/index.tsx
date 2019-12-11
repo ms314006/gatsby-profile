@@ -12,6 +12,7 @@ import config from '../website-config';
 import Pagination from '../components/Pagination';
 
 import {
+  blackMask,
   inner,
   outer,
   PostFeed,
@@ -135,18 +136,11 @@ const IndexPage: React.FC<IndexProps> = props => {
             backgroundImage: `url('${props.data.header.childImageSharp.fluid.src}')`,
           }}
         >
+          <div css={blackMask}/>
           <div css={inner}>
             <SiteHeaderContent>
               <SiteTitle>
-                {props.data.logo ? (
-                  <img
-                    style={{ maxHeight: '45px' }}
-                    src={props.data.logo.childImageSharp.fixed.src}
-                    alt={config.title}
-                  />
-                ) : (
-                  config.title
-                )}
+                {config.mainTitle}
               </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>
@@ -180,15 +174,6 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     header: file(relativePath: { eq: "img/blog-cover.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.

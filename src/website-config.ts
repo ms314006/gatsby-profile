@@ -1,5 +1,6 @@
 export interface WebsiteConfig {
   title: string;
+  mainTitle: string;
   description: string;
   coverImage: string;
   logo: string;
@@ -20,6 +21,8 @@ export interface WebsiteConfig {
    * full url, no username
    */
   twitter?: string;
+  linkedin?: string;
+  github?: string;
   /**
    * hide or show all email subscribe boxes
    */
@@ -49,15 +52,18 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
+  title: 'GQSM | Enjoy life enjoy coding',
+  mainTitle: 'GQSM',
+  description: 'Enjoy life enjoy coding',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
   facebook: 'https://www.facebook.com/ghost',
-  twitter: 'https://twitter.com/tryghost',
-  showSubscribe: true,
+  twitter: '',
+  linkedin: 'https://www.linkedin.com/in/guan-lin-huang-335027196/',
+  github: 'https://github.com/ms314006',
+  showSubscribe: false,
   mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
   mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
   mailchimpEmailFieldName: 'MERGE0',

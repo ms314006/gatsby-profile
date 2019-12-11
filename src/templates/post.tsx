@@ -277,9 +277,16 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
                     post.frontmatter.tags.length > 0 && (
                       <>
                         <DateDivider>/</DateDivider>
-                        <Link to={`/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
-                          {post.frontmatter.tags[0]}
-                        </Link>
+                        {
+                          post.frontmatter.tags.map((tag, index) => (
+                            <span key={tag}>
+                              <span>{index === 0 ? '' : ', '}</span>
+                              <Link to={`/tags/${_.kebabCase(tag)}/`}>
+                                {tag}
+                              </Link>
+                            </span>
+                          ))
+                        }
                       </>
                   )}
                 </PostFullMeta>

@@ -15,6 +15,13 @@ export const inner = css`
   width: 100%;
 `;
 
+export const blackMask = css`
+  background: #00000055;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+`;
+
 export const SiteMain = css`
   z-index: 100;
   flex-grow: 1;
@@ -74,8 +81,7 @@ export const SocialLink = css`
 
 export const SiteHeader = css`
   position: relative;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 0;
   color: #fff;
   /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
   background: ${darken('0.05', colors.darkgrey)} no-repeat center center;

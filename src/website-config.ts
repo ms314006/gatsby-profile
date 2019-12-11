@@ -59,7 +59,7 @@ const config: WebsiteConfig = {
   logo: 'img/ghost-logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
-  facebook: 'https://www.facebook.com/ghost',
+  facebook: 'https://www.facebook.com/profile.php?id=100000310308450',
   twitter: '',
   linkedin: 'https://www.linkedin.com/in/guan-lin-huang-335027196/',
   github: 'https://github.com/ms314006',

@@ -2,8 +2,8 @@
 import * as React from 'react';
 
 const Facebook: React.FC = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style={{ height: '1.5rem' }}>
-    <path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z" />
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
   </svg>
 );
 export default Facebook;

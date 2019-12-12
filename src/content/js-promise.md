@@ -68,10 +68,11 @@ console.log(data);
 ## Promise 基本用法
 如上段所說， Promise 是用來處理同步的部分，再說明用法前先來用圖片簡單瞭解一下原理：
 
+<div>
 <img style="width: 100%" src="https://i.imgur.com/GG6Wxmt.png" />
 <div style="display:flex; justify-content:center">
 <a href="https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Promise">圖片來源：https://developer.mozilla.org</a>
-</div><br />
+</div></div><br />
 
 上圖為 Promise 的生命週期，每個 Promise 都會經過 pending 狀態，在 pending 後分別會有成功時走向的的 fulfill ，及失敗時的 reject ，並透過 `.then()` 在成功時接著處理資料，或是以 `.catch()` 做失敗時的應對，當然！不論是哪一條路，也可以再 return 一個新的 Promise 延續處理。
 

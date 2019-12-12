@@ -63,9 +63,11 @@ fetch('https://httpbin.org/get')
 
 <code class="hm jc jd je jf b">Fetch</code> 接收了一個 <code class="hm jc jd je jf b">url</code> 作參數，並用 <code class="hm jc jd je jf b">then</code> 接收此次請求的相關資訊：
 
+<div>
 <img class="dz t u hi ak" src="https://miro.medium.com/max/3212/1*pTxI2uirqpdNK6OGrYNGag.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
-            <span>關於該此請求的 response 內容</span>
-          </div><br/>
+            <span>關於該次請求的 response 內容</span>
+          </div>
+</div><br/>
 
 資訊內包含了請求的 <code class="hm jc jd je jf b">url</code> 和用來判斷請求是否成功的 <code class="hm jc jd je jf b">status</code> 狀態等，在 <code class="hm jc jd je jf b">response</code> 中有兩個內建函式可以用來得到請求回傳的資料。
 
@@ -73,13 +75,15 @@ fetch('https://httpbin.org/get')
 
 下方為第二個 <code class="hm jc jd je jf b">.then</code> 在 <code class="hm jc jd je jf b">console</code> 中印出的 <code class="hm jc jd je jf b">myJson</code> 內容，以及當使用 <code class="hm jc jd je jf b">.text()</code> 時的資料模樣：
 
+<div>
 <img class="dz t u hi ak" src="https://miro.medium.com/max/4180/1*JCATZx8-PiPLkL6E7RFtsg.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>用 .json() 將 response 的請求資料取出</span>
-          </div><br/>
+          </div></div><br/>
 
+<div>
 <img class="dz t u hi ak" src="https://miro.medium.com/max/4128/1*beHToJ0Jz8dORnpfcearxA.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>用 .text() 將 response 的請求資料取出</span>
-          </div><br/>
+          </div></div><br/>
 
 ### POST
 
@@ -103,19 +107,22 @@ fetch('https://httpbin.org/post', {
 
 <code class="hm jc jd je jf b">Fetch</code> 在未指定請求方式的情況下都是使用 <code class="hm jc jd je jf b">GET</code> ，但是 <code class="hm jc jd je jf b">GET</code> 本身無法在請求中藉由 <code class="hm jc jd je jf b">body</code> 送出資料，因此在有 <code class="hm jc jd je jf b">body</code> 屬性的狀態下，未替 <code class="hm jc jd je jf b">method</code> 指定為 <code class="hm jc jd je jf b">POST</code> 或其他可帶 <code class="hm jc jd je jf b">body</code> 的請求方式時，會出現以下錯誤：
 
+<div>
 <img class="dz t u hi ak" src="https://miro.medium.com/max/3580/1*uylPEmLS2Rx9M4BupxqzTQ.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>預設的請求方式 GET 無法指定 body</span>
-          </div><br/>
+          </div></div><br/>
 
 需要注意的是， <code class="hm jc jd je jf b">body</code> 內的資料需使用 <code class="hm jc jd je jf b">JSON.stringify</code> 將物件轉換成字串型態，否則 <code class="hm jc jd je jf b">server</code> 端會無法正確取得資料，以下是 <code class="hm jc jd je jf b">data</code> 送進 <code class="hm jc jd je jf b">server</code> 的差別：
 
+<div>
 <img class="dz t u hi ak" src="https://miro.medium.com/max/2416/1*MzqoimOIofho6J2Mx0fDVA.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>未使用 JSON.stringify</span>
-          </div><br/>
+          </div></div><br/>
 
+<div>
 <img class="dz t u hi ak" src="https://miro.medium.com/max/2644/1*ygaq1njimK3iiqmw2IXY_Q.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>使用了 JSON.stringify</span>
-          </div><br/>
+          </div></div><br/>
 
 未使用 <code class="hm jc jd je jf b">JSON.stringify</code> 的請求會直接將物件強制轉為字串，變成 <code class="hm jc jd je jf b">[object Object]</code> 送至 <code class="hm jc jd je jf b">server</code> ，使用了正確轉換的請求在 <code class="hm jc jd je jf b">server</code> 端則是能接收到正確的內容。
 

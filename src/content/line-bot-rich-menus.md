@@ -15,9 +15,10 @@ tags:
 
 為 Line Bot 建立基本的圖文選單其實不難，在 Line 為每個開發者提供的管理介面（ Line Developers ）就有這個功能：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/4724/1*eOBNCDoFusqKsSKtBc58iQ.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>可在 Line developers 中自行新增圖文選單</span>
-          </div><br/>
+          </div></div><br/>
 
 建立選單的介面也很簡易：
 
@@ -27,15 +28,17 @@ Step1. 選擇圖文選單的版型，目前官方提供了七種樣式可供選�
 
 Step2. 上傳圖文選單的圖片及點擊固定區域時所執行的事情，例如：發送訊息、跳轉連結等等：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/4456/1*O22Tur24UDXwJmoAO17jMw.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>上傳圖文選單的圖片及設定點擊時的事件</span>
-          </div><br/>
+          </div></div><br/>
 
 上方兩個步驟完成後，便能得到一個標準的圖文選單：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/1356/1*EdB0ymbl61Knc2Nqan6jnw.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>使用版型一創建的簡易圖文選單</span>
-          </div><br/>
+          </div></div><br/>
 
 儘管官方提供了簡易的後台操作、七種選單的版型，讓許多人都可以在短時間內建立一個符合自己需求的圖文選單，但是這終究無法滿足所有人。
 
@@ -45,15 +48,17 @@ Step2. 上傳圖文選單的圖片及點擊固定區域時所執行的事情，�
 
 像是在事件數量大於 6 個（官方提供的最多可設定事件數）的情況：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/1708/1*jC1I-30WGYM9tO4Tsx_aaQ.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>此圖文選單的按鈕區塊多達九個</span>
-          </div><br/>
+          </div></div><br/>
 
 或是需要不規則的特殊排列（官方提供的版型都是固定切割的），官方範例：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/1376/1*fmCu9bxQNHf6tHNm_d_lew.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>不規則的按鈕擺放方式</span>
-          </div><br/>
+          </div></div><br/>
 
 以上兩種圖文選單的類型（ Rich menus ），都無法以官方提供的介面實現，必須另外使用 API 處理。
 
@@ -112,9 +117,10 @@ print(req.text)
 
 每個 Line Bot 的 Token 都可以在開發人員介面中找到：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/5720/1*Pb9G6Ujnp8lYfCLJ4Gfgig.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>如果這裡還沒有 Token 可以點選 Issue 產生</span>
-          </div><br/>
+          </div></div><br/>
 
 <code class="id jd je jf jg b">body</code> 是有關 Rich menus 的設置內容，他有以下幾個屬性：
 
@@ -126,9 +132,10 @@ print(req.text)
 
 設定好 <code class="id jd je jf jg b">body</code> 後還需要使用 <code class="id jd je jf jg b">json.dumps</code> 將它轉換為字串，並依照 <code class="id jd je jf jg b">utf-8</code> 編碼送出請求，請求成功後，會在 <code class="id jd je jf jg b">response</code> 中顯示 Rich menus 的 id：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/4004/1*xKvnIapRwd4qnBeig5lIXA.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>建立成功會回傳該 Rich menus 的 id</span>
-          </div><br/>
+          </div></div><br/>
 
 注意！每個 Line Bot 都只能有 1000 個圖文選單，如果超過的話會回傳狀態 400 失敗。
 
@@ -168,9 +175,10 @@ print(req.text)
 
 <code class="id jd je jf jg b">headers</code> 的 <code class="id jd je jf jg b">Authorization</code> 屬性帶上 Line Bot 的 Token 值， <code class="id jd je jf jg b">request</code> 的 <code class="id jd je jf jg b">url</code> 為 <a href="https://api.line.me/v2/bot/user/all/richmenu/" class="dj by jh ji jj jk" target="_blank" rel="noopener nofollow">https://api.line.me/v2/bot/user/all/richmenu/</a> 再加上 Rich menus 的 id ，請求成功會回傳一個空物件：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/1868/1*DE_7ic6igPmVQx21ww_aAA.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>請求成功時回傳空物件</span>
-          </div><br/>
+          </div></div><br/>
 
 這時候再打開 Line Bot 的介面，就可以看到圖文選單的內容已經改變。
 
@@ -193,9 +201,10 @@ for rich_menu in rich_menu_list:
 
 列出結果：
 
+<div>
 <img class="dz t u hz ak" src="https://miro.medium.com/max/3040/1*FB4QljsbV4oZVWjdWivOIg.png" role="presentation"><div style="display:flex; justify-content:center; font-size: 12px">
             <span>取得該 Line Bot 內所有 Rich menus</span>
-          </div><br/>
+          </div></div><br/>
 
 ### 刪除 Rich menus
 

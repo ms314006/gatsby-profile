@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React | React 與他的快樂小夥伴 Redux-基礎教學
-image: img/react-redux-state.jpg
+image: img/react-redux.jpg
 author: GQSM
 date: 2019-01-07T22:02:10.149Z
 draft: false

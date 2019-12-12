@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React | React 與他的快樂小夥伴 Redux-事件處理（Handling events）
-image: img/react-redux-state.jpg
+image: img/react-redux.jpg
 author: GQSM
 date: 2019-01-10T22:02:10.149Z
 draft: false
@@ -10,7 +10,7 @@ tags:
   - React Redux
 ---
 
-在<a class="dj by il im in io" target="_blank" rel="noopener" href="https://ms314006.github.io/2019/01/07/React-Redux-MapStateToPrors/">上篇文章</a>中，提到了 <code class="hm ip iq ir is b">React</code> 如何向 <code class="hm ip iq ir is b">Redux</code> 要求 <code class="hm ip iq ir is b">store</code> 中管理的資料，本篇會延續該篇文章內的程式碼接著說明，如果 <code class="hm ip iq ir is b">React</code> 要對資料進行異動，該怎麼做才好。
+在<a class="dj by il im in io" target="_blank" rel="noopener" href="/react-redux-state/">上篇文章</a>中，提到了 <code class="hm ip iq ir is b">React</code> 如何向 <code class="hm ip iq ir is b">Redux</code> 要求 <code class="hm ip iq ir is b">store</code> 中管理的資料，本篇會延續該篇文章內的程式碼接著說明，如果 <code class="hm ip iq ir is b">React</code> 要對資料進行異動，該怎麼做才好。
 
 ---
 

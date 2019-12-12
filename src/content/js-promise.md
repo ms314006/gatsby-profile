@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaScript | 從Promise開始承諾的部落格生活
-image: img/js-promise-process.jpg
+image: img/JavaScript-ES6.jpg
 author: GQSM
 date: 2019-01-01T22:02:10.149Z
 draft: false

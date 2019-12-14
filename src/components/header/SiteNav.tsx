@@ -142,6 +142,9 @@ class SiteNav extends React.Component<SiteNavProps> {
               <Link to="/about">About</Link>
             </li>
             <li role="menuitem">
+              <Link to="/portfolio">Portfolio</Link>
+            </li>
+            <li role="menuitem">
               <a
                 target="_blank"
                 href="https://weekly.starbugs.dev/"

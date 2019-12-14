@@ -156,6 +156,13 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   // Create tag pages
+  const portfolioTemplate = path.resolve('./src/templates/portfolio.tsx');
+  createPage({
+    path: '/portfolio/',
+    component: portfolioTemplate,
+  });
+
+  // Create tag pages
   const tagTemplate = path.resolve('./src/templates/tags.tsx');
   const tags = _.uniq(
     _.flatten(

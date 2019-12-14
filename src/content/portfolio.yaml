@@ -1,0 +1,79 @@
+- name: Todo list
+  js: [React, React Redux]
+  css: [SCSS, Flex]
+  source: https://github.com/ms314006/TodoList-With-React
+  demo: https://ms314006.github.io/TodoList-With-React/dist/
+  unitTest: true
+  cover: img/portfolio/todoList.jpg
+
+- name: 90sec game
+  js: [TypeScript, Canvas]
+  css: []
+  source: https://github.com/ms314006/90_secGame-with-React
+  demo: https://ms314006.github.io/90_secGame-with-React/dist/
+  unitTest: false
+  cover: img/portfolio/90secGame.jpg
+
+- name: Product gallery
+  js: [React, React Redux, React Router]
+  css: [SCSS, Grid]
+  source: https://github.com/ms314006/Product-Gallery-With-React
+  demo: https://ms314006.github.io/Product-Gallery-With-React/dist/#/
+  unitTest: true
+  cover: img/portfolio/productGallery.jpg
+
+- name: Filter
+  js: [React, React Redux, React Router]
+  css: [Ant Design, SCSS, Grid, Flex]
+  source: https://github.com/ms314006/Filter-With-React
+  demo: https://ms314006.github.io/Filter-With-React/dist/#/
+  unitTest: true
+  cover: img/portfolio/filter.jpg
+
+- name: Free cell
+  js: [React, React Redux, React DnD]
+  css: [SCSS, Grid]
+  source: https://github.com/ms314006/FreeCell-With-React
+  demo: https://ms314006.github.io/FreeCell-With-React/dist/index.html
+  unitTest: false
+  cover: img/portfolio/freeCell.jpg
+
+- name: MP3 Player
+  js: [TypeScript, React, React Redux]
+  css: [SCSS, Grid, Flex]
+  source: https://github.com/ms314006/MP3_Player-With-React
+  demo: https://ms314006.github.io/MP3_Player-With-React/dist/
+  unitTest: false
+  cover: img/portfolio/mp3Player.jpg
+
+- name: Online Payment
+  js: [TypeScript, React, React Redux, React Router]
+  css: [Material UI, SCSS, Grid, Flex]
+  source: https://github.com/ms314006/Online_Payment-With-React
+  demo: https://github.com/ms314006/Online_Payment-With-React
+  unitTest: false
+  cover: img/portfolio/onlinePayment.jpg
+
+- name: Hotel reservation
+  js: [TypeScript, Axios, React, React Redux, Redux Saga, React Router]
+  css: [Material UI, SCSS, Grid, Flex]
+  source: https://github.com/ms314006/Hotel_Reservation-With-React
+  demo: https://ms314006.github.io/Hotel_Reservation-With-React/dist/#/
+  unitTest: false
+  cover: img/portfolio/hotelReservation.jpg
+
+- name: Cloud storage
+  js: [TypeScript, moment, React, React Redux, React Router]
+  css: [Material UI, SCSS, Grid, Flex]
+  source: https://github.com/ms314006/Cloud_Storage-With-React
+  demo: https://ms314006.github.io/Cloud_Storage-With-React/dist/#/with-cloud
+  unitTest: false
+  cover: img/portfolio/cloudStorage.jpg
+
+- name: Chat room
+  js: [TypeScript, React, React Redux, React Router]
+  css: [Material UI, SCSS, Grid, Flex]
+  source: https://github.com/ms314006/Chat_Room-With-React
+  demo: https://ms314006.github.io/Chat_Room-With-React/dist/#/entrance/setNameOption
+  unitTest: false
+  cover: img/portfolio/chatRoom.jpg

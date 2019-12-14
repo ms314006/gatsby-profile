@@ -56,7 +56,7 @@ const config: WebsiteConfig = {
   mainTitle: 'GQSM',
   description: 'Enjoy life enjoy coding',
   coverImage: 'img/blog-cover.jpg',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/gqsm-logo.png',
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
   facebook: 'https://www.facebook.com/profile.php?id=100000310308450',

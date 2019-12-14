@@ -1,19 +1,19 @@
 - id: Ghost
-  avatar: avatars/ghost.png
+  avatar: avatars/gqsm.png
   bio: The professional publishing platform
   twitter: TryGhost
   facebook: ghost
   website: https://ghost.org/
   location: On a plane
 - id: GQSM
-  avatar: avatars/ghost.png
+  avatar: avatars/gqsm.png
   bio: Enjoy life enjoy coding!
   twitter: TryGhost
   facebook: ghost
   website: https://ghost.org/
   location: On a plane
 - id: Another Author
-  avatar: avatars/ghost.png
+  avatar: avatars/gqsm.png
   bio: This is another test author with a profile background image
   twitter: TryGhost
   facebook: ghost

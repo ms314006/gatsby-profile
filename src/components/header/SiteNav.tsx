@@ -22,6 +22,7 @@ const HomeNavRaise = css`
 
 const SiteNavStyles = css`
   position: relative;
+  padding: 0px 20px;
   z-index: 300;
   display: flex;
   justify-content: space-between;
@@ -92,9 +93,6 @@ const SocialLinks = styled.div`
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  a:last-of-type {
-    padding-right: 20px;
-  }
 `;
 
 const SubscribeButton = styled.a`

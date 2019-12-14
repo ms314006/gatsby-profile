@@ -3,7 +3,7 @@ layout: post
 title: JavaScript | WebSocket 讓前後端沒有距離
 image: img/JavaScript.jpg
 author: GQSM
-date: 2019-08-21T13:45:54.149Z
+date: 2019-02-23T13:45:54.149Z
 draft: false
 tags: 
   - JavaScript
@@ -253,7 +253,7 @@ wss.on('connection', ws => {
 
 另外，要傳送 <code class="hm hn ho hp hq b">JSON</code> 的資料的時，記得在 <code class="hm hn ho hp hq b">send</code> 中做 <code class="hm hn ho hp hq b">JSON.stringify</code> ，接收到時再用 <code class="hm hn ho hp hq b">JSON.parse</code> 轉成物件處理即可！
 
-如果想找個伺服器部署 <code class="hm hn ho hp hq b">WebSocket</code> ，可以參考「<a class="dj by jm jn jo jp" target="_blank" rel="noopener" href="/enjoy-life-enjoy-coding/heroku-搭配-git-在-heroku-上部署網站的手把手教學-bf4fd6f998b8">Heroku | 搭配 Git 在 Heroku 上部署網站的手把手教學</a>」
+如果想找個伺服器部署 <code class="hm hn ho hp hq b">WebSocket</code> ，可以參考「<a class="dj by jm jn jo jp" target="_blank" rel="noopener" href="/heroku-deploy/">Heroku | 搭配 Git 在 Heroku 上部署網站的手把手教學</a>」
 
 ---
 

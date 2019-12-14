@@ -42,7 +42,7 @@ $.ajax({
 
 ## Fetch
 
-<code class="hm jc jd je jf b">Fetch</code> 是 <code class="hm jc jd je jf b">ES6</code> 的新語法，主要是搭配 <code class="hm jc jd je jf b">Promise</code> （<a class="dj by ka kb kc kd" target="_blank" rel="noopener" href="/enjoy-life-enjoy-coding/javascript-從promise開始承諾的部落格生活-e20dba78732f">Promise 的基本用法</a>）來執行請求網站和請求後獲取 <code class="hm jc jd je jf b">Response</code> 的處理方式。
+<code class="hm jc jd je jf b">Fetch</code> 是 <code class="hm jc jd je jf b">ES6</code> 的新語法，主要是搭配 <code class="hm jc jd je jf b">Promise</code> （<a class="dj by ka kb kc kd" target="_blank" rel="noopener" href="/js-promise/">Promise 的基本用法</a>）來執行請求網站和請求後獲取 <code class="hm jc jd je jf b">Response</code> 的處理方式。
 
 以下範例的請求都會從 <a href="http://httpbin.org/" class="dj by ka kb kc kd" target="_blank" rel="noopener nofollow">httpbin.org</a> 這個網站裡挑選，它提供了各種不同的請求方式，在練習時是個很棒的工具。
 

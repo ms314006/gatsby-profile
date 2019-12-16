@@ -1,3 +1,11 @@
+- name: Random generate team of Pokemon!
+  js: [TypeScript, React, React Hooks]
+  css: [NES.css, SCSS, Grid, Flex]
+  source: https://github.com/ms314006/team-of-pokemon
+  demo: https://ms314006.github.io/team-of-pokemon/dist/
+  unitTest: false
+  cover: img/portfolio/teamOfPokemon.jpg
+
 - name: Todo list
   js: [React, React Redux]
   css: [SCSS, Flex]

@@ -52,7 +52,7 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'GQSM | Enjoy life enjoy coding',
+  title: 'Clark 神 Q 超人 | Enjoy life enjoy coding',
   mainTitle: 'GQSM',
   description: 'Enjoy life enjoy coding',
   coverImage: 'img/blog-cover.jpg',

@@ -13,7 +13,7 @@ tags:
 
 Hi！大家好，我是神 Q 超人，今年非常幸運能夠將自己第一次的講者經歷奉獻給 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a>，其實現在如果再來一次，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">我還是會緊張到像隨時要把胃液給吐出來</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">我還是會緊張到像隨時要把胃液給吐出來</div>
 
 就和當天整個上午的狀態一樣，但既然一點都不上手，為什麼還要打這篇文章呢？因為對我來說這機會就像天上掉下來的一樣，如果不想辦法做一點紀念，怕幾年過後我就會忘記那個胃液快衝出喉嚨的感覺 &#x1F602;
 
@@ -25,11 +25,11 @@ Hi！大家好，我是神 Q 超人，今年非常幸運能夠將自己第一次
 
 其實想法很單純，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">就是想做點不一樣的事情看看</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">就是想做點不一樣的事情看看</div>
 
 而且一開始其實也沒有打算投 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a>，最初是在閒逛 <a href="https://ithelp.ithome.com.tw/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">itHelp</a> 的時候，突然看見「鐵人賽結束，然後呢？」之類的廣告，點進去是 <a href="https://modernweb.tw/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">Modern Web</a> 的徵稿資訊，一時興起就想說，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">不然我也來投投看好了，反正也沒有任何損失</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">不然我也來投投看好了，反正也沒有任何損失</div>
 
 結果怒收一封感謝信 &#x1F62D;
 
@@ -39,7 +39,7 @@ Hi！大家好，我是神 Q 超人，今年非常幸運能夠將自己第一次
 
 後來因爲有個同事是 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a> 的工作人員，她就告訴我：「不然你修一下稿子，再拿來投 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a> 啊！」，聽到後其實我很猶豫，猶豫到截稿前最後一個禮拜都還沒有辦法下決定，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">因為我害怕失敗</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">因為我害怕失敗</div>
 
 其實我也沒有想過自己那麼玻璃心 &#x1F602;，我一直以為我是個放的開的男人，結果發現原來我放不開，後來的我是在非常非常強烈的決心下，強迫自己重新寫過稿子，再戰一次 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a>。
 
@@ -51,11 +51,11 @@ Hi！大家好，我是神 Q 超人，今年非常幸運能夠將自己第一次
 
 大家可能會很好奇這一段，如何把自己要講的議程描述出來投稿，這點也是我非常頭痛的地方，但因為經歷了 <a href="https://modernweb.tw/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">Modern Web</a> 的失敗，讓我在重新寫稿前，更仔細的思考為什麼被 <a href="https://modernweb.tw/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">Modern Web</a> 給婉拒，最後大概是歸納了一個主要原因，那就是
 
-<span style="font-size: 26px; color: #696969; font-style:italic">我沒有清楚表達要講什麼內容</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">我沒有清楚表達要講什麼內容</div>
 
 因為第一份稿子太像在寫文章，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">評審無法掌握我講的東西到底有沒有價值，以及議程核心觀念是什麼，能給聽眾什麼。</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">評審無法掌握我講的東西到底有沒有價值，以及議程核心觀念是什麼，能給聽眾什麼。</div>
 
 於是在投 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a> 的時候，與其去修改投給 <a href="https://modernweb.tw/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">Modern Web</a> 的稿子，不如整個砍掉重練，而這一次在寫稿的時候，雖然也是用寫文章的方式，但我多考慮了議程的節奏，大概的格式架構分成以下幾個部分：
 
@@ -65,7 +65,7 @@ Hi！大家好，我是神 Q 超人，今年非常幸運能夠將自己第一次
 
 但因為我的議程是講解技術概念的類型，如果大家打算以其他類型做投稿，可能就不太適合用以上幾點架構，但是不論是哪一種類型的稿子，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">最重要的是清楚你要表達什麼與能給聽眾什麼</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">最重要的是清楚你要表達什麼與能給聽眾什麼</div>
 
 至於我對稿子最有自信的地方可能就是「分享實務經驗」這點，因為不論是何種技術都可以在網路上找到，但實務經驗就是很寶貴的內容，建議大家可以著重分享這個部分，讓議程變得與眾不同。
 
@@ -73,7 +73,7 @@ Hi！大家好，我是神 Q 超人，今年非常幸運能夠將自己第一次
 
 對！但是光是我講完全沒有任何公信力對吧？記得我上方提到的同事嗎？其實有參加 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a> 到最後的大家應該都有看過，她就是 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON 2019</a> 最後一場 Keynote （<a href="https://mopcon.org/2019/schedule/?id=2019036" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">職涯論壇 — 接下來要繼續當工程師，或者轉職到管理職？</a>）的主持人，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">叫做 Brook</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">叫做 Brook</div>
 
 因為一直很扼腕沒在議程上自我介紹到，所以這裡就幫她一把了：
 
@@ -127,21 +127,21 @@ Brook：除非違反規則，否則絕大多數的投稿都不會直接刷掉，
 
 真正的考驗其實是在 Get 錄取通知後，不瞞各位說，在收到錄取通知後我就先跑日本玩個一趟（其實是早就規劃好了 XD），結果回來後才明白什麼叫做地獄，因為從來沒有演講經驗的我，第一次居然就登板 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a> 這種大場合，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">導致我在準備階段三天兩頭抱頭懊悔，恨不得回到過去阻止自己投稿。</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">導致我在準備階段三天兩頭抱頭懊悔，恨不得回到過去阻止自己投稿。</div>
 
 但通常過了幾分鐘後就又認命回到電腦桌前，繼續在 <a href="https://hackmd.io/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">HackMD</a> 上敲敲打打，一開始我是打算先把所有能講、瞭解的東西都打上去，最後再根據內容刪刪減減，並整理重點到簡報上。
 
 於是計畫 A 就真的讓我打了很多亂七八糟的東西 &#x1F602;，後來想想這樣子好像不可行，我應該要有系統性的規劃自己要講什麼，而不是只把能講的說出來，於是我去打開當時投出的稿，想說從這裡下手，先把每個部分要講的東西放到簡報裡，之後擬出每一張簡報要講哪些內容
 
-<span style="font-size: 26px; color: #696969; font-style:italic">然後把它們通通背起來。</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">然後把它們通通背起來。</div>
 
 對沒錯，就是真的那麼硬，沒有經驗的我只能這樣子土炮到底，所以下班後不是在擬講稿就是在背講稿，然後每次背的時候都會錄音下來自己聽一遍，而大概在 <a href="https://mopcon.org/2019/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">MOPCON</a> 開始前的那個禮拜四，我試講一遍給我朋友聽，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">結果他們居然聽到睡著 😭</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">結果他們居然聽到睡著 😭</div>
 
 在當天晚上，雖然時間已經十萬火急，但我還是做了一件事情，就是把後面那些稿子都砍掉，不背也不講了，因為在沒有任何畫面的狀況下，要用說的去描述如何寫好測試案例，以及遇到的問題和怎麼修正真的太困難了，想到聽眾可能也沒見過測試案例（結果在議程中我有詢問大家有沒有寫過單元測試，結果大概 95% 的人都舉手哦！），就橫了心決定直接現場 Coding 了！
 
-<span style="font-size: 26px; color: #696969; font-style:italic">與其用說的讓大家聽懂，不如實作給大家看懂</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">與其用說的讓大家聽懂，不如實作給大家看懂</div>
 
 所以當天禮拜四又開始思考該以什麼樣的例子來帶入，在時間不多，希望一切從簡的狀況下，我準備了一個基本的 JavaScript 函式、計數器的 Component、還有 Mock 的應用這幾個例子（雖然最後時間還是來不及讓我全部講完，只能在 QA 時間補充 &#x1F62D;），隔天禮拜五我又請朋友再聽一次，回饋就都還不錯，只是 Live Coding 的劇本還要再練得更熟，而這時候也就已經是當時在議程上講的內容了！
 
@@ -157,13 +157,13 @@ Brook：除非違反規則，否則絕大多數的投稿都不會直接刷掉，
 
 到結束後，大家還是一直鼓勵我或是對我比大拇指，這瞬間，那些沸騰的胃液才開始平復下來，只能說
 
-<span style="font-size: 26px; color: #696969; font-style:italic">因為準備的足夠，還有許多人的幫忙，才能有這場成功的議程！</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">因為準備的足夠，還有許多人的幫忙，才能有這場成功的議程！</div>
 
 只是到最後時間掌控的不太好，導致很多想講的都沒有講到，只能在 QA 時間補充，老實說因為我很怕結束後沒有人來找我，這樣會讓我在 QA 區孤單寂寞覺得冷，還特別拜託朋友當暗樁，要在 QA 時間過來和我聊天 &#x1F602;，結果出乎意料非常多人，又多聊整整一場議程的時間！而在和大家討論的過程中本身也學到很多！會後也結交到許多新朋友 &#x1F603;
 
 之後也有和朋友聊到這段議程經歷的酸甜苦辣，特別是抱著頭後悔自己為什麼要投稿、每個夜晚都擔心到底來不來得及準備完成等等，從一直擔心會不會失敗，到最後笑著走出會場的過程，只能說五月天唱出一句心聲：
 
-<span style="font-size: 26px; color: #696969; font-style:italic">感動總在衝動後，苦澀回憶都會溫柔 - 有些事現在不做一輩子都不會做了</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">感動總在衝動後，苦澀回憶都會溫柔 - 有些事現在不做一輩子都不會做了</div>
 
 以上就是第一次成為講者所經歷的過程，也感謝那段時期自己付出的努力，讓我能繼續相信努力不會騙人！
 
@@ -175,15 +175,15 @@ Brook：除非違反規則，否則絕大多數的投稿都不會直接刷掉，
 
 在這裡當作番外篇亂聊一下好了 &#x1F602;，文中提到說，在議程裡有找到機會詢問大家「有沒有在進行單元測試？」，其實在這之後還有接著問第二個問題：「有在進行前端單元測試的人嗎？」
 
-<span style="font-size: 26px; color: #696969; font-style:italic">結果居然是零啊！</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">結果居然是零啊！</div>
 
 但是大家仍然願意選擇這場說明前端單元測試的議程，代表其實想嘗試的人是很多的！但是前端的單元測試牽扯到了介面、框架和各種函式庫，基本的測試也許還能夠找到一些 Example，換作比較新穎或特別的用法，就要再多花點時間專研測試方法及最佳實踐！
 
-<span style="font-size: 26px; color: #696969; font-style:italic">當遇到問題，又沒有人能夠討論，就會卻步而無法開啟前端測試之路</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">當遇到問題，又沒有人能夠討論，就會卻步而無法開啟前端測試之路</div>
 
 因此議程結束後我一直在想，是不是能夠有個平台可以讓大家討論關於前端的單元測試呢？以 Facebook 的社團來說，大概就像是 <a href="https://www.facebook.com/profile.php?id=521085554595481&amp;ref=br_rs" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">Front-End Developers Taiwan</a>、<a href="https://www.facebook.com/profile.php?id=1439747729634154&amp;ref=br_rs" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">ReactJS.tw</a> 等等，但搜尋之下似乎沒有，於是
 
-<span style="font-size: 26px; color: #696969; font-style:italic">就自己辦一個吧！</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">就自己辦一個吧！</div>
 
 會有這個想法我必須感謝在講者晚宴中遇到的兩位大大，是 <a href="https://www.facebook.com/GoodideasStudio/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">好想工作室</a> 的 Chris，他讓我知道原來不是只有我一個人在前端單元測試沙漠中無助的摸索，還有 <a href="https://www.facebook.com/profile.php?id=1190343134374259&amp;ref=br_rs" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">遠距工作者在台灣 (work remotely in Taiwan)</a> 的創建者艾霖，是她告訴我只要願意就能夠試著去改變環境！現在想起來真的覺得自己運氣很好！因為有了這一切的經歷，所以 <a href="https://www.facebook.com/groups/F2EUnit.tw/" class="at cg ho hp hq hr" target="_blank" rel="noopener nofollow">F2EUnit.tw-單元測試在前端</a> 就誕生了！歡迎大家可以加入一起討論 &#x1F64C;
 

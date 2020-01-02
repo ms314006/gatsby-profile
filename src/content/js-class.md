@@ -20,7 +20,7 @@ Hi！本來在之前想和 <a class="dj by iy iz ja jb" target="_blank" rel="noo
 
 先來解釋一下標題好了，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">Class 是 JavaScript 中最容易被誤會的語法糖了</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">Class 是 JavaScript 中最容易被誤會的語法糖了</div>
 
 為什麼會被誤會？如果各位讀者有寫過其他像是 Java 的 Class-Based 物件導向語言，都會知道下面幾件事情：
 
@@ -32,17 +32,17 @@ Hi！本來在之前想和 <a class="dj by iy iz ja jb" target="_blank" rel="noo
 
 對！但是差別在於第一點所說的「分成 Class 和 Object 兩種」
 
-<span style="font-size: 26px; color: #696969; font-style:italic">擁有 Class 才能產生出對應的 Instance ，這是與 JavaScript 差別最大的地方。</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">擁有 Class 才能產生出對應的 Instance ，這是與 JavaScript 差別最大的地方。</div>
 
 在 JavaScript 的 Prototype-Based 物件導向中，不區分 Class 和 Object 所有的東西都可以是 Object ，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">且不一定需要經過 Class 或 Constructor 才能建立 Instance，直接操作 Prototype 也能辦到。</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">且不一定需要經過 Class 或 Constructor 才能建立 Instance，直接操作 Prototype 也能辦到。</div>
 
 再來，如果在 Java 中要做 Class 間的繼承，得在<strong class="im ku">定義 Class 時指定要繼承的父類別</strong>。在 JavaScript 中則是以<strong class="im ku">改變 Constructor 的 Prototype 來使用其他 Constructor 的 Method </strong>。
 
 這些差別都是取決於物件導向是基於 Class 或 Prototype ，因此就算 ES6 新增了一個 Class 保留字用來當 Constructor 創建 Instance ，也不代表它物件導向的方式會變成 Class-Based ，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">只是被 Class 包裝的 Prototype-Based 而已。</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">只是被 Class 包裝的 Prototype-Based 而已。</div>
 
 所以千萬不要搞混囉！ Class 只是簡化了 JavaScript 中操作 Constructor 的語法糖而已。
 
@@ -172,7 +172,7 @@ console.log(luck.getPosition()); // Luck's position is the Front-end.
 
 上方在定義 <code class="hm kw kx ky kz b">Employee</code> 時另外用了 <code class="hm kw kx ky kz b">extends</code> 指定了 <code class="hm kw kx ky kz b">Person</code> ，這麼一來就等於是繼承了 <code class="hm kw kx ky kz b">Person</code> 的 Properties 和 Method ，但為什麼在 <code class="hm kw kx ky kz b">Employee</code> 中的 constructor 中還要使用 <code class="hm kw kx ky kz b">super</code> 把 name 傳給 <code class="hm kw kx ky kz b">Person</code> 呢？
 
-<span style="font-size: 26px; color: #696969; font-style:italic">因為 Employee 中也有 constructor</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">因為 Employee 中也有 constructor</div>
 
 當子類別自身也需要透過 constructor 建立 Properties 時，就需要使用 <code class="hm kw kx ky kz b">super</code> 另外指定要送給父類別的值，否則就 <code class="hm kw kx ky kz b">Person</code> 來說，創建 Instance 時將兩個值送入 <code class="hm kw kx ky kz b">Employee</code> ， <code class="hm kw kx ky kz b">Person</code> 根本不曉得哪一個才是要被指定成 <code class="hm kw kx ky kz b">name</code> 的資料，這裡大家可以想像成是用 <code class="hm kw kx ky kz b">call</code> 來呼叫另一個 Constructor 的感覺。
 
@@ -276,7 +276,7 @@ console.log(luck.superCallGetForm()); // Luck from Taiwan.
 
 到這裡應該可以清楚明白，
 
-<span style="font-size: 26px; color: #696969; font-style:italic">就算眼睛看見的是 Class ，寫下的也是 Class ，但骨子裡操作的卻還是 Prototype 。</span>
+<div style="font-size: 30px; color: #696969; font-style:italic; padding: 0px 60px;margin: 30px 0px;">就算眼睛看見的是 Class ，寫下的也是 Class ，但骨子裡操作的卻還是 Prototype 。</div>
 
 學會在 Class 中創建 Instance 、 Inheritance 、 Super Call 後，接著來看看 Class 提供的 Static Method （靜態方法）！
 

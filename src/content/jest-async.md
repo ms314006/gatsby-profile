@@ -3,7 +3,7 @@ layout: post
 title: Jest | 跨越同步執行的 Jest 測試
 image: img/Jest.jpg
 author: GQSM
-date: 2019-03-25T00:06:20.149Z
+date: 2019-03-27T00:06:20.149Z
 draft: false
 tags: 
   - Unit Testing

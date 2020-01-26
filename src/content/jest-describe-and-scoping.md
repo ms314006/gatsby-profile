@@ -3,7 +3,7 @@ layout: post
 title: Jest | 替測試設置分類（describe）及作用域（scoping）
 image: img/Jest.jpg
 author: GQSM
-date: 2019-03-25T00:05:48.149Z
+date: 2019-03-26T00:05:48.149Z
 draft: false
 tags: 
   - Unit Testing

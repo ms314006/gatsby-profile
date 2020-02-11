@@ -4,7 +4,7 @@
   source: https://github.com/ms314006/hangman
   demo: https://ms314006.github.io/hangman/dist/
   unitTest: false
-  cover: img/portfolio/hangmane.jpg
+  cover: img/portfolio/hangman.jpg
 
 - name: Random generate team of Pokemon!
   js: [TypeScript, React, React Hooks]

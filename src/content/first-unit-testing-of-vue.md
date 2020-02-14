@@ -8,6 +8,7 @@ draft: false
 tags: 
   - Jest
   - Vue
+  - w3HexSchool
 ---
 
 Hello! My name is Clark! On this post, we're gonna write test case for component of [Vue.js](https://vuejs.org/) with [Jest](https://jestjs.io/en/) and [@testing-library](https://testing-library.com/), let's we starts 😃!

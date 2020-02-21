@@ -71,13 +71,13 @@ var maxSubArray = function(nums) {
 
 後來又多想了一下，決定將判斷的部分改成
 
-<span style="
+<div style="
             font-size: 30px;
             color: rgb(105, 105, 105);
             font-style: italic;
             padding: 0px 60px;
             margin: 30px 0px;
-          ">如果 currentSum 加上 num[i]，反而小於 num[i]，那就把 currentSum 改成 num[i]</span>
+          ">如果 currentSum 加上 num[i]，反而小於 num[i]，那就把 currentSum 改成 num[i]</div>
 
 
 因為前面的 <code class="ga hx hy hz hn b">currentSum</code> 加上 num[i]，如果不會讓 <code class="ga hx hy hz hn b">currentSum</code> 變得比 num[i] 更大，那就不如不要前面那些總計了，直接把 <code class="ga hx hy hz hn b">currentSum</code> 改成 num[i] 繼續加總，而在 <code class="ga hx hy hz hn b">currentSum</code> 每次加總完也都和當前的 <code class="ga hx hy hz hn b">maxSum</code> 比較一下，如果比較大的話就更新 <code class="ga hx hy hz hn b">maxSum</code>。
@@ -111,13 +111,13 @@ var maxSubArray = function(nums) {
 
 ---
 
-<span style="
+<div style="
             font-size: 30px;
             color: rgb(105, 105, 105);
             font-style: italic;
             padding: 0px 60px;
             margin: 30px 0px;
-          ">但可不是這樣子就結束了！</span>
+          ">但可不是這樣子就結束了！</div>
 
 在這道題目的解釋後面啊，還有附上這麼一句話：
 

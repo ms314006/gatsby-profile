@@ -61,16 +61,13 @@ var maxSubArray = function(nums) {
 
 但是這樣會有問題，假如我的 Input 是 <code class="ga hx hy hz hn b">[-2, 1, -3, 4, -1, 2, 1, -5, 4]</code>，那執行的過程會如下：
 
-<pre>
-<span id="28cf" class="hl hm ct bk hn b dx ho hp r hq">一開始設定 maxSum 和 currentSum 都是 -2。</span>
-<span id="f761" class="hl hm ct bk hn b dx hr hs ht hu hv hp r hq">第一次迴圈：currentSum 加上 -1 等於 -1，所以會比 maxSum 存著的 -2 還大，於是更新 maxSum，currentSum 繼續加總。</span>
-<span id="cbf7" class="hl hm ct bk hn b dx hr hs ht hu hv hp r hq">第二次迴圈：currentSum 加上 -3 等於 -4，而 -4 比 maxSum 目前存著的 -1 還小，因此不更新 maxSum，然後 currentSum 歸 0 從下一個元素開始重新加。</span>
-<span id="396d" class="hl hm ct bk hn b dx hr hs ht hu hv hp r hq">第三次迴圈：currentSum 加上 4 等於 4，所以比目前 maxSum 存著的 -1 還大，所以更新 maxSum，然後讓 currentSum 繼續加總。</span>
-<span id="dcc8" class="hl hm ct bk hn b dx hr hs ht hu hv hp r hq">* 問題出在這裡 *<br>第三次迴圈：currentSum 加上 -1 等於 3，比目前 maxSum 中的 4 還小，因此不更新 maxSum，然後 currentSum 歸 0。</span>
-</pre>
-<br/>
+0. 一開始設定 <code class="ga hx hy hz hn b">maxSum</code> 和 <code class="ga hx hy hz hn b">currentSum</code> 都是 -2。
+1. 第一次迴圈：<code class="ga hx hy hz hn b">currentSum</code> 加上 -1 等於 -1，所以會比 <code class="ga hx hy hz hn b">maxSum</code> 存著的 -2 還大，於是更新 <code class="ga hx hy hz hn b">maxSum</code>，currentSum` 繼續加總。
+2. 第二次迴圈：<code class="ga hx hy hz hn b">currentSum</code> 加上 -3 等於 -4，而 -4 比 <code class="ga hx hy hz hn b">maxSum</code> 目前存著的 -1 還小，因此不更新 <code class="ga hx hy hz hn b">maxSum</code>，然後 currentSum 歸 0 從下一個元素開始重新加。
+3. 第三次迴圈：<code class="ga hx hy hz hn b">currentSum</code> 加上 4 等於 4，所以比目前 <code class="ga hx hy hz hn b">maxSum</code> 存著的 -1 還大，所以更新 <code class="ga hx hy hz hn b">maxSum</code>，然後讓 <code class="ga hx hy hz hn b">currentSum</code> 繼續加總。
+4. 第四次迴圈：<code class="ga hx hy hz hn b">currentSum</code> 加上 -1 等於 3，比目前 <code class="ga hx hy hz hn b">maxSum</code> 中的 4 還小，因此不更新 <code class="ga hx hy hz hn b">maxSum</code>，然後 <code class="ga hx hy hz hn b">currentSum</code> 歸 0。
 
-這個解法的 Bug 在於，4 之後所有的元素都不會比 4 還大，所以 <code class="ga hx hy hz hn b">currentSum</code> 會一直被歸 0，中斷與下次的加總，導致沒辦法算到 <code class="ga hx hy hz hn b">4 + -1 + 3</code> 這個更大的結果，maxSum 也永遠是 4。
+這個解法的 Bug 在於第四次迴圈，因為 4 之後所有的元素都不會比 4 還大，所以 <code class="ga hx hy hz hn b">currentSum</code> 會一直被歸 0，中斷與下次的加總，導致沒辦法算到 <code class="ga hx hy hz hn b">4 + -1 + 3</code> 這個更大的結果，<code class="ga hx hy hz hn b">maxSum</code> 也永遠是 4。
 
 後來又多想了一下，決定將判斷的部分改成
 

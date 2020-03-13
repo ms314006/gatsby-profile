@@ -1,10 +1,13 @@
 version: 2.1
-orbs:
-  node: circleci/node@8.16.0
 jobs:
-  build-and-deploy:
+  build:
+    docker:
+      - image: circleci/node@8.16.0
     steps:
       - checkout
+      - run:
+          name: Check Node.js version
+          command: node -v
       - run:
           name: Install dependencies if needed
           command: npm install
@@ -14,3 +17,6 @@ jobs:
       - run:
           name: Build
           command: npm run build
+      - run:
+          name: Deploy
+          command: node ./deploy-github

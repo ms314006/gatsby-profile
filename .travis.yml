@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "8"
+install:
+    - npm install
+deploy:
+    - npm run build
+    - npm run deploy:github

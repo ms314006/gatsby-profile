@@ -17,6 +17,16 @@ jobs:
       - run:
           name: Build
           command: npm run build
+      
+      - add_ssh_keys:
+          fingerprints:
+            - $CIRCLE_SHA1
       - run:
-          name: Deploy
-          command: node ./deploy-github
+          name: Deploy to github.io
+          command: |
+            cd ./public
+            git config --global user.email "ms314006@hotmail.com"
+            git config --global user.name "ms314006"
+            git add .
+            git commit -m "Deploy from CircleCI"
+            git push origin HEAD:master

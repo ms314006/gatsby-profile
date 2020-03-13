@@ -12,3 +12,7 @@ jobs:
             - run: npm install
             - run: npm run clean 
             - run: npm run build
+workflows:
+  build-deploy:
+    jobs:
+      - build-and-deploy

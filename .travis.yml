@@ -8,9 +8,7 @@ script:
 deploy:
   provider: script
   script:
-    - npm run clean
-    - npm run build
-    - npm run deploy:github
+    - npm run clean && npm run build && npm run deploy:github
   skip_cleanup: true
   on:
     branch: master

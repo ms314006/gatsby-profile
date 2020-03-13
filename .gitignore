@@ -3,10 +3,10 @@
 # =========================
 
 # Build directory
-public/
+public
 
 # Gatsby cache
-.cache/
+.cache
 
 # Logs
 logs

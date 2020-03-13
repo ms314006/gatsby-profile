@@ -1,18 +1,7 @@
-version: 2.1
-orbs:
-  node: circleci/node:10.16.3
-jobs:
-  build-and-deploy:
-    executor:
-      name: node/default
-    steps:
-      - checkout
-      - node/with-cache:
-          steps:
-            - run: npm install
-            - run: npm run clean 
-            - run: npm run build
-workflows:
-  build-deploy:
-    jobs:
-      - build-and-deploy
+machine: # 虛擬機的環境
+  node:
+    version: 8.16.0 #把剛剛得到的node version填到這裡
+  test:
+    - npm install  #每一個deploy到github上的commit都會執行npm test
+    - npm run clean 
+    - npm run build

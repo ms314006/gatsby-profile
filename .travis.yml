@@ -6,5 +6,8 @@ install:
 script:
     - echo "npm test temporarily disabled"
 deploy:
-    - npm run build
-    - npm run deploy:github
+  provider: script
+  script: npm run build && npm run deploy:github
+  skip_cleanup: true
+  on:
+    branch: master

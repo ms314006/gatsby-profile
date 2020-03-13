@@ -12,5 +12,7 @@ deploy:
   github-token: $GITHUB_TOKEN
   local-dir: public
   keep-history: false
+  script:
+    - node ./deploy-github
   on:
     branch: master

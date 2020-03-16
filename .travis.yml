@@ -6,13 +6,3 @@ install:
 script:
     - npm run clean
     - npm run build
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local-dir: public
-  keep-history: false
-  repo: ms314006/ms314006.github.io
-  target_branch: master
-  on:
-    branch: master

@@ -3,6 +3,8 @@ node_js:
   - "8"
 install:
     - npm install
+before_script:
+  - git clone --branch master https://github.com/ms314006/ms314006.github.io.git public
 script:
     - npm run clean
     - npm run build

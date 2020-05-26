@@ -17,7 +17,7 @@ In the project below, I will use [Time For Kids](https://www.timeforkids.com/) a
 
 
 ## Create A Project Of Chrome Extensions
-Ok so first of all, we need to create a project for chrome extensions, so like npm project need package.json, you should create a file manifest.json, if you want to you project can be a chrome extensions.
+Ok so first of all, we need to create a project for chrome extensions, so like npm project need package.json, you should create a file manifest.json, if you expect your project can be a chrome extensions.
 
 The content of manifest.json below:
 ```Json

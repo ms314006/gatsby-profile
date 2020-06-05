@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to make a mock of arrow functions of classes for unit testing?
-image: img/how-to-make-a-mock-of-arrow-functions-of-classes-for-unit-testing.jpg
+image: img/how-to-make-a-mock-of-arrow-functions-of-classes-for-unit-testing.png
 author: GQSM
 date: 2020-06-05T15:35:55.149Z
 draft: false

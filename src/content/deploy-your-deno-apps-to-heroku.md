@@ -8,6 +8,7 @@ draft: false
 tags: 
   - Heroku
   - Deno
+  - w3HexSchool
 ---
 
 Hello, guys! I am Clark! In this post, I am going to share about how to deploy your [Deno](https://deno.land/) applications to [Heroku](https://dashboard.heroku.com/)!

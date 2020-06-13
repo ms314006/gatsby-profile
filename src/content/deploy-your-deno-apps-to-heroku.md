@@ -78,7 +78,7 @@ Don't worry, please enter below Buildpack URL to input box:
 https://github.com/chibat/heroku-buildpack-deno.git
 ```
 
-Finally, we just need to deploy our Deno applications to Heroku like as other applications. If you never deploy any applications to Heroku, you can refer to [this part](https://devcenter.heroku.com/articles/deploying-nodejs#deploy-your-application-to-heroku), but you don't need to type `heroku create` because you already did.
+When we finished above steps, we just need to deploy our Deno applications to Heroku like as other applications. If you never deploy any applications to Heroku, you can refer to [this part](https://devcenter.heroku.com/articles/deploying-nodejs#deploy-your-application-to-heroku), but you don't need to type `heroku create` because you already did.
 
 If you guys have any questions, please comment below and let me know. thank for you read!
 

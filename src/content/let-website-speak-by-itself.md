@@ -96,12 +96,12 @@ const getSelectedTab = (tabs) => {
   );
 };
 
-chrome.tabs.query({ active: true, }, getSelectedTab);
+chrome.tabs.query({ currentWindow: true, }, getSelectedTab);
 ```
 
 Except we can add event listener of click to button of start and stop in popup.js, we also can use the API from chrome to control webpages, like the following two:
 
-The first is [chrome.tabs.query](https://developer.chrome.com/extensions/tabs#method-query), it can find all tabs currently open in chrome browser, The first parameter set the currently active tab, The second parameter is a callback function.
+The first is [chrome.tabs.query](https://developer.chrome.com/extensions/tabs#method-query), it can find all tabs currently open in chrome browser, The first parameter set the currently using tab, The second parameter is a callback function.
 
 callback function in the code above is `getSelectedTab` and `getSelectedTab` receive a parameter called `tabs`, `tabs` is array type, in the `tabs` will have all match conditional tab data, did you remember my conditions? I set the currently active tab, so only will have a tab in the tabs, even so the `tabs` still is a array type, so we need to get currently tab data by `tabs[0]`.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is the decorator pattern? And how to implement it by JavaScript?
-image: img/what-is-the-decorator-pattern-and-how-to-implement-it-by-javascript.png.jpg
+image: img/what-is-the-decorator-pattern-and-how-to-implement-it-by-javascript.jpg
 author: GQSM
 date: 2020-07-02T00:32:59.149Z
 draft: false

@@ -11,8 +11,6 @@ tags:
   - w3HexSchool
 ---
 
-Originally post on my blog:
-
 Hello, guys! I am Clark. In this post, we are going to learn about proxy pattern. In JavaScript proxy pattern is not as same as others pattern, because JavaScript provided a [new syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy), that can enable you create to a proxy object easily. So I think implement proxy pattern is not difficult question in JavaScript.
 
 Even the way using proxy is easy, I still want to explain why we need to use proxy pattern. I think that is a little bit difficult for me, but I will try my best. And My English is not good, so I hope you will not mind it. If you can correct anything of my post, I will appreciate for ever comment.

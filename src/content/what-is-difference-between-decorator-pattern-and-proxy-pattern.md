@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In my opinion, what is the difference between decorator and proxy pattern?
-image: img/what-is-the-decorator-pattern-and-how-to-implement-it-by-javascript.jpg
+image: img/what-is-difference-between-decorator-pattern-and-proxy-pattern.jpg
 author: GQSM
 date: 2020-07-19T10:25:59.149Z
 draft: false

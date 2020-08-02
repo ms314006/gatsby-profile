@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to install npm through NVM(Node version manager)
-image: img/what-is-the-proxy-pattern-and-how-to-implement-it-by-javascript.jpg
+#image: img/what-is-the-proxy-pattern-and-how-to-implement-it-by-javascript.jpg
 author: GQSM
 date: 2020-08-02T22:32:59.149Z
 draft: false

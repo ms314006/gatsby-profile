@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Start learn styled components!(1)-what is it and how to install and use?
-image: img/start-learn-styled-components-what-is-it-and-how-to-install.jpg
+image: img/styled-components.jpg
 author: GQSM
 date: 2020-08-09T23:46:59.149Z
 draft: false

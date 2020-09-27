@@ -3,7 +3,7 @@ layout: post
 title: Start learn styled components!(3)-You can styling any component you want!
 image: img/styled-components.jpg
 author: GQSM
-date: 2020-08-27T23:46:59.149Z
+date: 2020-09-28T23:46:59.149Z
 draft: false
 tags: 
   - React
@@ -62,7 +62,7 @@ const App = () => (
 
 We can wrap the `Link` through like `Button` component of [last post](https://dev.to/ms314006/start-learn-styled-components-2-extending-styles-ef3). The wrap way is same, just give `styled` the `Link` parameter. Code snippet show you different between inline style and through styled component:
 
-```
+```JSX
 import React from 'react';
 import { HashRouter, Link } from 'react-router-dom';
 import styled from 'styled-components';
@@ -91,3 +91,7 @@ export default App;
 I think the styled component is clearer than inline style, but the result is same:
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/t1qzs0vm8ucvkpov0u8i.png)
+
+# Conclusion
+
+So if we use styled component we don't need to consider how to expanding components provided by other element ui framework!

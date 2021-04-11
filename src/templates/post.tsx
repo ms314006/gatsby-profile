@@ -16,6 +16,7 @@ import PostFullFooter from '../components/PostFullFooter';
 import PostFullFooterRight from '../components/PostFullFooterRight';
 import ReadNextCard from '../components/ReadNextCard';
 import Subscribe from '../components/subscribe/Subscribe';
+import Comments from '../components/Comments';
 import Wrapper from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
@@ -314,6 +315,7 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
               */}
             </article>
           </div>
+          <Comments />
         </main>
 
         {/* Links to Previous/Next posts */}

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: '神 Q 超人',
     description: 'Enjoy life enjoy coding',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    siteUrl: 'https://ms314006.github.io', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://ms314006.github.io',
       },
     },
     'gatsby-plugin-emotion',

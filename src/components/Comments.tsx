@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
-
-const COMMENTS_ID = 'comments-container';
+import React, { useEffect, useRef } from 'react';
 
 const Comments = () => {
+  const commentsRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://utteranc.es/client.js';
@@ -13,20 +12,17 @@ const Comments = () => {
     script.setAttribute('crossorigin', 'anonymous');
     script.async = true;
 
-    const comments = document.getElementById(COMMENTS_ID);
-
-    if (comments) {
-      comments.appendChild(script);
+    if (commentsRef.current) {
+      commentsRef.current.appendChild(script);
     }
 
     return () => {
-      const comments = document.getElementById(COMMENTS_ID);
-      if (comments) {
-        comments.innerHTML = '';
+      if (commentsRef.current) {
+        commentsRef.current.innerHTML = '';
       }
     };
   }, []);
-  return <div id={COMMENTS_ID} />;
+  return <div ref={commentsRef} />;
 };
 
 export default Comments;

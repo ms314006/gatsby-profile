@@ -88,8 +88,7 @@ module.exports = {
         start_url: '/',
         background_color: '#f7f0eb',
         theme_color: '#a2466c',
-        display: 'standalone',
-        icon: 'src/pwa-icon.jpg',
+        display: 'standalone'
       },
     },
     'gatsby-plugin-offline',
